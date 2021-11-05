@@ -1,0 +1,80 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.card {
+  color: black;
+  border-radius: 20px;
+}
+.card img {
+  width: 80%;
+  margin: auto;
+}
+.navbar {
+  padding: 0;
+  background-color: #082032;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-item {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 4em;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.navbar li:hover {
+  background-color: #41547c;
+}
+
+.odd {
+  background-color: #3f4650;
+}
+
+.even {
+  background-color: #eeeeee;
+  color: rgb(0, 0, 0);
+}
+
+span {
+  font-weight: 900;
+  color: #6284ce;
+}
+.intro-button {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-radius: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#intro,
+#aboutme,
+#whatcanido,
+#skills,
+#projects,
+#contactme {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 10% 20%;
+}
+
+#intro {
+  padding-top: 20%;
+}
+
+#contactme i {
+  color: #948b8b;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+#contactme i:hover {
+  color: #394867;
+}
