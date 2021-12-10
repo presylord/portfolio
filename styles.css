@@ -64,6 +64,16 @@ span {
   font-size: x-small;
 }
 
+.profile-img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 100%;
+}
+.about {
+  width: 60%;
+  margin: auto;
+}
+
 #intro,
 #aboutme,
 #whatcanido,
@@ -77,11 +87,15 @@ span {
   padding: 10% 10%;
 }
 
-#intro,
-#aboutme {
+#intro {
   padding-top: 300px;
 }
-
+#aboutme {
+  padding-top: 200px;
+}
+#contactme {
+  padding: 2% 5%;
+}
 #contactme i {
   color: #948b8b;
   margin: 1rem;
