@@ -90,3 +90,11 @@ span {
 #contactme i:hover {
   color: #ffffff;
 }
+
+@media (max-width: 1000px) {
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+  }
+}
