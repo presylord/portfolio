@@ -12,6 +12,7 @@ body {
 .card img {
   width: 80%;
   margin: auto;
+  border-radius: 10px;
 }
 .card-body img {
   height: 70px;
@@ -89,12 +90,4 @@ span {
 
 #contactme i:hover {
   color: #ffffff;
-}
-
-@media (max-width: 1000px) {
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-    outline: none;
-  }
 }
