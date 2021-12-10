@@ -6,6 +6,9 @@ body {
   color: black;
   border-radius: 20px;
 }
+.card-text {
+  text-align: left;
+}
 .card img {
   width: 80%;
   margin: auto;
@@ -52,6 +55,10 @@ span {
   padding-right: 1%;
 }
 
+.button-project {
+  font-size: small;
+}
+
 #intro,
 #aboutme,
 #whatcanido,
@@ -62,7 +69,7 @@ span {
   text-align: center;
   align-items: center;
   width: 100%;
-  padding: 10% 20%;
+  padding: 10% 10%;
 }
 
 #intro {
