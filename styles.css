@@ -4,7 +4,7 @@ body {
 }
 .card {
   color: black;
-  border-radius: 20px;
+  border-radius: 1em;
 }
 .card-text {
   text-align: left;
@@ -12,10 +12,10 @@ body {
 .card img {
   width: 80%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 1em;
 }
 .card-body img {
-  height: 70px;
+  height: 4em;
   width: auto;
 }
 .navbar {
@@ -30,13 +30,18 @@ body {
 .nav-item {
   margin: 0;
   text-transform: uppercase;
-  line-height: 4em;
-  padding: 0 10px;
+  line-height: 3em;
+  padding: 0 1em;
   font-weight: bold;
 }
 
 .navbar li:hover {
   background-color: #41547c;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  box-shadow: none;
 }
 
 .odd {
@@ -55,7 +60,6 @@ span {
 .intro-button {
   margin-left: 0.5%;
   margin-right: 0.5%;
-  border-radius: 20px;
   padding-left: 1%;
   padding-right: 1%;
 }
