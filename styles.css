@@ -115,10 +115,6 @@ body {
   padding-right: 1%;
 }
 
-.button-project {
-  font-size: x-small;
-}
-
 /* about me properties */
 .profile-img {
   height: 12rem;
@@ -139,6 +135,14 @@ span {
 
 h1 {
   font-size: 3rem;
+}
+
+.button-project {
+  font-size: x-small;
+}
+
+.modal {
+  color: black;
 }
 
 @media screen and (max-width: 450px) {

@@ -53,8 +53,27 @@
       <p>
         a FULL STACK Web Developer
       </p>
-      <a role="button" class="btn btn-secondary intro-button rounded-pill my-1" href="./resume.pdf"><i class="fas fa-download"></i>  Download my Resume</button>
+      <a role="button" class="btn btn-secondary intro-button rounded-pill my-1" data-bs-toggle="modal" data-bs-target="#resume"><i class="fas fa-download"></i>  Download my Resume</button>
       <a role="button" class="btn btn-outline-light intro-button rounded-pill my-1 " href="#projects" ><i class="fas fa-briefcase"></i>  View my Projects</a>
+    </div>
+
+<!-- Modal -->
+    <div class="modal fade" id="resume" tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeLabel">My Resume</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <embed src="/public/resume.pdf" frameborder="0" width="100%" height="500px">
+            </div>
+          <div class="modal-footer">
+            <a role="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Close</a>
+              <a role="button" class="btn btn-dark rounded-pill" href="/public/resume.pdf">Download Resume</a>
+          </div>
+        </div>
+      </div>
     </div>
 
 
